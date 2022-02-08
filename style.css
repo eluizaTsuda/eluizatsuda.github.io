@@ -1,0 +1,152 @@
+:root{
+    --color-white: #f6f6f6;
+    --color-light-gray: #818181;
+    --color-gray: #555151;
+    --color-dark-gray: #303030;
+    --color-orange: #f4511e;
+}
+
+body {
+    font: 550 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: var(--color-light-gray);
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--color-dark-gray);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: var(--color-dark-gray);
+    font-weight: 400;
+    margin-bottom: 0px;
+} 
+
+.jumbotron {
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+.jumbotron a{
+    color: var(--color-white); 
+    font-size: 14px;
+}
+
+.bg-grey {
+    background-color: var(--color-white);
+}
+
+.img-about-luiza{
+    margin-right: 550px;
+}
+.img-about {
+    border: 5px solid transparent;
+    margin:auto ;
+    width: 60%;
+    height: 60%;
+    opacity: 0.9;
+}
+.img-about:hover {
+    border-color: var(--color-orange); 
+}
+
+main.experience main.container section.job-name {
+  margin: 1em 0;
+  text-align: right;
+}
+
+main.experience main.container section.job-name header.company-name {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+main.experience main.container section.job-name main.job-role {
+  font-weight: 400;
+}
+
+main.experience main.container section.job-description {
+  margin: 1em 0;
+  border-left: 2px var(--color-gray) solid;
+}
+
+@media (max-width: 575px) {
+  main.experience main.container section.job-name {
+    text-align: left;
+    margin-left: 0;
+    border-right: none;
+    border-left: 2px var(--color-gray) solid;
+  }
+}
+
+@media (max-width: 575px) {
+  main.experience main.container section.job-description {
+    border-left: none;
+  }
+}
+
+main.education main.container section.edu-name {
+  margin: 1em 0;
+  text-align: right;
+}
+
+main.education main.container section.edu-name header.edu-degree {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+main.education main.container section.edu-name main.fac-name {
+  font-weight: 400;
+}
+
+main.education main.container section.edu-description {
+  margin: 1em 0;
+  border-left: 3px var(--color-gray) solid;
+}
+
+@media (max-width: 575px) {
+  main.education main.container section.edu-name {
+    text-align: left;
+    margin-left: 0;
+    border-right: none;
+    border-left: 3px var(--color-gray) solid;
+  }
+}
+
+@media (max-width: 575px) {
+  main.education main.container section.edu-description {
+    border-left: none;
+  }
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: var(--color-orange);
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: var(--color-white) !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: var(--color-orange) !important;
+    background-color: var(--color-white) !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: var(--color-white) !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--color-orange);
+}
