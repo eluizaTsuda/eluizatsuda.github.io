@@ -100,10 +100,6 @@ main.education main.container section.edu-name header.edu-degree {
   font-size: 18px;
 }
 
-main.education main.container section.edu-name main.fac-name {
-  font-weight: 400;
-}
-
 main.education main.container section.edu-description {
   margin: 1em 0;
   border-left: 3px var(--color-gray) solid;
