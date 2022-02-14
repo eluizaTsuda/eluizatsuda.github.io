@@ -9,6 +9,11 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link 
+    rel="stylesheet" 
+    type="text/css" 
+    href="https://fonts.googleapis.com/css?family=Princess Sofia"
+  >
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -25,7 +30,7 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
@@ -36,8 +41,8 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#experience">EXPERIENCE</a></li>
-        <li><a href="#skills">SKILLS</a></li>
         <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skills">SKILLS</a></li>
         <li><a href="#projects">PROJECTS</a></li>
       </ul>
     </div>
@@ -45,45 +50,59 @@
 </nav>
 
 <div class="jumbotron text-center">
+
   <h1>Luiza Tsuda</h1> 
   <p>Software Developer</p>
 
   <div class="col-sm-0 "></div>
-  <div class="row">
-    <a
-    href="https://www.linkedin.com/in/luizatsuda/"
-    target="_blank"
-    class="btn-contact"
-    ><i class="fab fa-linkedin"></i> Linkedin</a
-    >
-    <a
-    id="profile-link"
-    href="https://github.com/eluizaTsuda"
-    target="_blank"
-    class="btn-contact"
-    ><i class="fab fa-github"></i> GitHub</a
-    >
-    <a
-    id="profile-link"
-    href="https://codepen.io/eluizatsuda"
-    target="_blank"
-    class="btn-contact"
-    ><i class="fab fa-codepen"></i> Codepen</a
-    >
-    <a
-    id="profile-link"
-    href="https://www.freecodecamp.org/eluiza"
-    target="_blank"
-    class="btn-contact"
-    ><i class="fab fa-free-code-camp"></i> freeCodeCamp</a
-    >
-  </div>
-  <span class="glyphicon glyphicon-envelope"></span> luiza.tsuda@gmail.com</p>
+    <div class="row">
+      <a
+      href="https://www.linkedin.com/in/luizatsuda/"
+      target="_blank"
+      class="btn-contact img-transition"
+
+      ><i class="fab fa-linkedin"></i> Linkedin</a
+      >
+      <a
+      id="profile-link"
+      href="https://github.com/eluizaTsuda"
+      target="_blank"
+      class="btn-contact img-transition"
+      ><i class="fab fa-github"></i> GitHub</a
+      >
+      <a
+      id="profile-link"
+      href="https://codepen.io/eluizatsuda"
+      target="_blank"
+      class="btn-contact img-transition"
+      ><i class="fab fa-codepen"></i> Codepen</a
+      >
+      <a
+      id="profile-link"
+      href="https://www.freecodecamp.org/eluiza"
+      target="_blank"
+      class="btn-contact img-transition"
+      ><i class="fab fa-free-code-camp"></i> freeCodeCamp</a
+      >
+    </div>
+    <a 
+      href="mailto:cafezinho@gmail.com" 
+      class="img-transition"
+    ><i class="fa fa-envelope"></i> luiza.tsuda@gmail.com</a>
 </div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
+    <div class="col-sm-3">
+      <a href="#luiza" data-toggle="collapse" title="Click on the photo to know my hobbies.">
+        <img src="https://eluizatsuda.github.io/image/eResume/img_Luiza-transp.png" class="img-circle img-about margin-bt">
+      </a>
+      <div id="luiza" class="collapse">
+          <p>My favorite hobbies are hiking, cooking and gardening.</p>
+          <p>I also enjoy photography and drawing.</p>
+      </div>
+    </div>
     <div class="col-sm-9">
       <h2>About Me</h2><br>
       <h4>My name is Luiza, but you can call me by my nickname "Luh"</h4><br>
@@ -92,17 +111,6 @@
       <p>• I hold analytical, technical and resulted-oriented skills and the strength to work in a fast-paced environment with tight deadlines.</p>
       <p>• I have a high level of understanding, empathy, patience, and I care deeply about supporting and perpetuating a solid and trusting rapport. I am also motivated to help with teams issues and deliver extraordinary customer experiences.</p>  
       <p>• Over the recent years, I paused professionally to carry out some personal projects, and now I look forward to conquering new horizons as a software developer.</p>
-    </div>
-    <div class="col-sm-3">
-
-      <a href="#luiza" data-toggle="collapse" title="Click on the photo to know my hobbies.">
-          <img src="https://eluizatsuda.github.io/image/eResume/img_Luiza.jpg" class="img-circle img-about margin-bt">
-      </a>
-      <div id="luiza" class="collapse">
-          <p>My favorite hobbies are hiking, cooking and gardening.</p>
-          <p>I also enjoy photography and drawing.</p>
-      </div>
-
     </div>
   </div>
 </div>
@@ -284,15 +292,12 @@
   </main>
 </div>
 
-<!-- Container (Skills Section) -->
-<div id="skills" class="container-fluid ">
-  <h2 class="text-center">Skills</h2><br>
-</div>
+
  
 <!-- Container (education Section) -->
-<div id="education" class="container-fluid bg-grey">
+<div id="education" class="container-fluid">
   <main class="education">
-    <h2 class="text-center">Education and Course</h2>
+    <h2 class="text-center">Education, Licenses and Certifications</h2>
     <!-- start education #9 uof-python -->
     <article>
       <main class="container">
@@ -505,18 +510,26 @@
 
 </div>
 
+<!-- Container (Skills Section) -->
+<div id="skills" class="container-fluid  bg-grey">
+  <h2 class="text-center">Skills</h2><br>
+</div>
+
 <!-- Container (projects Section) -->
 <div id="projects" class="container-fluid">
   <h2 class="text-center">Projects</h2>
 </div>
 
-<!-- footer -->
-<footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-  <p>Made By eLu!</p>
+<!-- >>>>>>>>>>>>>>>>>>>>>> FOOTER -->
+<footer class="container-fluid text-center bg-orange">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p class="codedby">
+      Webpage design by <span class="brandname"> eLuh!</span> 
+    </p>
 </footer>
+
 
 </body>
 </html>

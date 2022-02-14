@@ -4,7 +4,11 @@
     --color-gray: #555151;
     --color-dark-gray: #303030;
     --color-orange: #f4511e;
+    --color-pink: #541af5;
+    --color-light-blue: #5b7ef0;
 }
+
+
 
 body {
     font: 550 15px Lato, sans-serif;
@@ -26,10 +30,21 @@ h4 {
     margin-bottom: 0px;
 } 
 
+a {
+  color: var(--color-light-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-orange);
+  text-decoration: none;
+
+}
+
 .jumbotron {
     background-color: var(--color-orange);
     color: var(--color-white);
-    padding: 100px 25px;
+    padding: 50px 25px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -38,8 +53,29 @@ h4 {
     font-size: 14px;
 }
 
+a:hover {
+  color: var(--color-light-blue);
+  text-decoration: none;
+
+}
+
+.img-transition {
+  margin: 1px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 20px;
+  transition: transform 0.3s ease-out;
+}
+.img-transition:hover {
+  transform: translateY(8px);
+}
+
+
 .bg-grey {
     background-color: var(--color-white);
+}
+.bg-orange {
+  background-color: var(--color-orange);
 }
 
 .img-about-luiza{
@@ -72,7 +108,7 @@ main.experience main.container section.job-name main.job-role {
 
 main.experience main.container section.job-description {
   margin: 1em 0;
-  border-left: 2px var(--color-gray) solid;
+  border-left: 3px var(--color-gray) solid;
 }
 
 @media (max-width: 575px) {
@@ -141,8 +177,27 @@ main.education main.container section.edu-description {
     border-color: transparent;
     color: var(--color-white) !important;
 }
+
+/* -------------- footer  ----------------------*/
+
+footer {
+  color: var(--color-white);
+}
 footer .glyphicon {
     font-size: 20px;
-    margin-bottom: 20px;
-    color: var(--color-orange);
+    margin-bottom: 0px;
+    color: var(--color-white);
+}
+footer .brandname {
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--color-pink);
+  font-family: Princess Sofia, Calibri;
+  text-shadow: 1px 1px 8px var(--color-light-blue);
+}
+
+footer .codedby {
+  font-size: 0.8em;
+  color: var(--color-light-grey);
 }
