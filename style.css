@@ -222,6 +222,18 @@ main.education main.container section.edu-description {
 }
 /* Navbar-project styles end here */
 
+/* logo start here */
+.logo {
+  width: 75px;
+  cursor: pointer;
+  filter: invert(1);
+}
+.logo:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+/* logo end here */
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -233,7 +245,6 @@ main.education main.container section.edu-description {
   position: relative;
 }
 .splash {
-
   margin-bottom: 0;
   background-color: var(--color-orange);
   z-index: 9999;
@@ -251,7 +262,7 @@ main.education main.container section.edu-description {
 }
 .title h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 6em;
+  font-size: 2em;
   font-weight: 100;
 }
 .underline {
