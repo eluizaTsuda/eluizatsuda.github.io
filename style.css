@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 :root{
     --color-white: #f6f6f6;
+    --color-black: #000000;
     --color-light-gray: #818181;
     --color-gray: #555151;
     --color-dark-gray: #303030;
@@ -7,7 +10,6 @@
     --color-pink: #541af5;
     --color-light-blue: #5b7ef0;
 }
-
 
 
 body {
@@ -234,7 +236,7 @@ main.education main.container section.edu-description {
 }
 /* logo end here */
 
-.row {
+.project_row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -257,21 +259,26 @@ main.education main.container section.edu-description {
 }
 .title {
   text-align: center;
+  margin-top: 8rem;
   margin-bottom: 2rem;
   color: var(--color-black);
 }
 .title h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
-  font-weight: 100;
+  font-weight: 300;
+}
+
+#portfolio-title {
+  font-size: 2.5rem;
 }
 .underline {
-  width: 23rem;
+  width: 28rem;
   height: 0.15rem;
   background: var(--color-black);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.3em;
+  margin-bottom: 1rem;
 }
 .btn-area {
   margin-bottom: 4rem;
@@ -281,7 +288,7 @@ main.education main.container section.edu-description {
 .filter-btn {
   background: transparent;
   border-color: var(--color-black);
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
   letter-spacing: 1px;
@@ -290,27 +297,31 @@ main.education main.container section.edu-description {
   color: var(--color-black);
   cursor: pointer;
   transition: 0.5s ease;
+  background: var(--color-orange);
 }
 .filter-btn:hover {
-  background: var(--color-black);
+  background: var(--color-orange);
   color: var(--color-white);
 }
 .portfolio-item {
   display: grid;
-  grid-gap: 1rem 2rem;
-  max-width: 25rem;
-  width: 90vw;
+  grid-gap: 1rem 5rem;
+  max-width: 50rem;
+  width: 450px;
   margin: 0 auto;
   justify-items: center;
   margin-bottom: 4em;
+ 
 }
 .portfolio-item.hide {
   display: none;
+  background-color: red;
 }
 .portfolio-item.show {
   display: grid;
   justify-items: center;
   animation: showItem 0.5s ease;
+  background-color:yellow;
 }
 
 @-webkit-keyframes showItem {
@@ -339,10 +350,13 @@ main.education main.container section.edu-description {
 }
 .photo {
   object-fit: cover;
-  height: 225px;
+  height: 275px;
   width: 400px;
+  /*
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  background-color: aquamarine;
+  */
 }
 .item-info header {
   display: flex;
@@ -359,9 +373,38 @@ main.education main.container section.edu-description {
   color: var(--color-black);
   text-align: right;
 }
+
+
+.portfolio a{
+  color: var(--color-orange); 
+  font-size: 12px;
+}
+
+.font-size16 {
+  font-size: 10px;
+  text-align: center;
+}
 /* Menu project styles end here */
 
-
+/* Top - Arrow up styles start here */
+.top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  background: var(--color-lightgray);
+  bottom: 1.5rem;
+  right: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: var(--color-dark-charcoal);
+  border-radius: 50%;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+/*  Top - Arrow up styles end here */
 
 /* -------------- footer  ----------------------*/
 
@@ -385,4 +428,25 @@ footer .brandname {
 footer .codedby {
   font-size: 0.8em;
   color: var(--color-light-grey);
+}
+
+/* >>>>>>>>>>>>>>>>>> RESPONSIVE STYLES <<<<<<<<<<<<<<<<<< */
+
+/* Responsive styles start here */
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 799px) {
+
+  /* OK */
+  .btn-area.portfolio-filter .filter-btn {
+    font-size: 1.2rem;
+    margin: 0 0.1rem;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+  }
 }
