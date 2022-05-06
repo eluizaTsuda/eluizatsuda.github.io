@@ -25,11 +25,12 @@ h2 {
     margin-bottom: 30px;
 }
 h4 {
-    font-size: 19px;
+    font-size: 15px;
     line-height: 1.375em;
     color: var(--color-dark-gray);
     font-weight: 400;
     margin-bottom: 0px;
+
 } 
 
 a {
@@ -297,7 +298,7 @@ main.education main.container section.edu-description {
   color: var(--color-black);
   cursor: pointer;
   transition: 0.5s ease;
-  background: var(--color-orange);
+  /*background: var(--color-orange);*/
 }
 .filter-btn:hover {
   background: var(--color-orange);
@@ -321,7 +322,7 @@ main.education main.container section.edu-description {
   display: grid;
   justify-items: center;
   animation: showItem 0.5s ease;
-  background-color:yellow;
+  /*background-color:yellow;*/
 }
 
 @-webkit-keyframes showItem {
@@ -372,6 +373,7 @@ main.education main.container section.edu-description {
 .category-detail {
   color: var(--color-black);
   text-align: right;
+  font-size: 15px;
 }
 
 
@@ -450,21 +452,18 @@ footer .codedby {
 @media (max-width: 799px) {
   #portfolio-title {
     font-size: 2.5rem;
-    color: pink;
+    color:orangered;
   }
-
-  .btn-area.portfolio-filter .filter-btn {
+  .filter-btn {
     font-size: 1.2rem;
     margin: 0 0.1rem;
-    letter-spacing: 1px;
-    border-radius: 5px;
     padding: 1rem 1rem;
   }
 }
 @media (max-width: 678px) {
   #portfolio-title {
     font-size: 2.5rem;
-    color: orange;
+    color: green;
   }
 }
 
@@ -480,10 +479,13 @@ footer .codedby {
     font-size: 1.8rem;
     color: blue;
   }
+  .filter-btn {
+    font-size: 1.0rem;
+    padding: 0.5rem 0.5rem;
+  }
   .photo {
     height: 175px;
     width: 260px;
-    /*background-color: purple;*/
   }
   .item-info header {
     width: 250px;
