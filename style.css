@@ -311,7 +311,7 @@ main.education main.container section.edu-description {
   margin: 0 auto;
   justify-items: center;
   margin-bottom: 4em;
- 
+  /*background-color: green;*/
 }
 .portfolio-item.hide {
   display: none;
@@ -434,14 +434,25 @@ footer .codedby {
 
 /* Responsive styles start here */
 @media (max-width: 1100px) {
+  #portfolio-title {
+    font-size: 2.5rem;
+    color: red;
+  }
 }
 
 @media (max-width: 991px) {
+  #portfolio-title {
+    font-size: 2.5rem;
+    color: purple;
+  }
 }
 
 @media (max-width: 799px) {
+  #portfolio-title {
+    font-size: 2.5rem;
+    color: pink;
+  }
 
-  /* OK */
   .btn-area.portfolio-filter .filter-btn {
     font-size: 1.2rem;
     margin: 0 0.1rem;
@@ -449,4 +460,38 @@ footer .codedby {
     border-radius: 5px;
     padding: 1rem 1rem;
   }
+}
+@media (max-width: 678px) {
+  #portfolio-title {
+    font-size: 2.5rem;
+    color: orange;
+  }
+}
+
+@media (max-width: 550px) {
+  #portfolio-title {
+    font-size: 2.5rem;
+    color: yellow;
+  }
+}
+
+@media (max-width: 411px) {
+  #portfolio-title {
+    font-size: 1.8rem;
+    color: blue;
+  }
+  .photo {
+    height: 175px;
+    width: 260px;
+    /*background-color: purple;*/
+  }
+  .item-info header {
+    width: 250px;
+  }
+  .category-detail {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  } 
 }
