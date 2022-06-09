@@ -12,11 +12,16 @@
 
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 
+  <!--
   <link
-    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet"
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
     crossorigin="anonymous"
   />
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -75,10 +80,46 @@
             <!-- >>>>>>>>>>>>>>>>>>>>>> CODE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
             <!-- CODE - each portfolio item start -->
             <div class="portfolio-item" data-category="code">
+                <img src="image/eResume/project-arthur-portfolio.png" class="photo" alt="Code 3">
+                    <div class="item-info">
+                        <header>
+                            <!--<h4><i class="fa-solid fa-circle-play"></i> <i class="fa-brands fa-github"></i> </h4>-->
+                            <h4>Code</h4>
+                            <h4 class="category-detail">Tech stack
+                                <i class="btn-techstack fab fa-html5"></i>
+                                <i class="btn-techstack fab fa-css3-alt"></i>
+                                <i class="btn-techstack fab fa-bootstrap"></i>
+                                <i class="btn-techstack fa-brands fa-js"></i>
+                            </h4>
+                        </header>
+                    </div>
+                    
+                    <a href="#arthur" data-toggle="collapse" title="Click to read about Arthur's portfolio">
+                        <p class="project-tile">Arthur's portfolio <i class="fa fa-caret-square-o-down" aria-hidden="true"></i> </p>
+                    </a>
+                    <div id="arthur" class="collapse font-size11">
+                        <p>
+                        Arthur's website uses some Bootstrap components to create a fully functional and responsive website. The 2D and 3D arts are displayed on the portfolio page according to the selected category.
+                        </p>
+                    </div>
+                    <p class="font-size11">Try it 
+                        <a href="https://arthurcgi.github.io/" target="_blank">
+                            live <i class="fa-solid fa-circle-play"></i>
+                        </a>
+                        and view the code on 
+                        <a href="https://github.com/eluizaTsuda/arthur-portfolio" target="_blank">
+                            Github <i class="fa-brands fa-github"></i>
+                        </a>
+                    </p>
+                </div>
+            <!-- CODE - each portfolio item end -->
+            <!-- CODE - each portfolio item start - QUOTE -->
+            <div class="portfolio-item" data-category="code">
                <img src="image/eResume/project-random-quote.png" class="photo" alt="Code 3">
                 <div class="item-info">
                     <header>
                         <h4>Code </h4>
+                        <!--<h4><i class="fa-solid fa-circle-play"></i> <i class="fa-brands fa-codepen"></i> </h4>-->
                         <h4 class="category-detail">Tech stack
                             <i class="btn-techstack fab fa-html5"></i>
                             <i class="btn-techstack fab fa-css3-alt"></i>
@@ -89,22 +130,24 @@
                 </div>
                 
                 <a href="#randomquote" data-toggle="collapse" title="Click to read about Random Quote">
-                    <p class="project-tile">Random Quote  <i class="far fa-window-maximize"></i></p>
+                    <p class="project-tile">Random Quote <i class="far fa-window-maximize"></i>
+
+                    </p>
                 </a>
-                <div id="randomquote" class="collapse font-size16">
+                <div id="randomquote" class="collapse font-size11">
                     <p>
                        The quote machine displays a random quote and a different background color when clicking the "New Quote" button. It also allows you to post it on Twitter by clicking the "Tweet this quote" button.
 
                         The Quotes API is a simple API that returns an inspirational quote and its author. Fetch was used to get data from the API and the JSON() method to convert the response into JSON data.
                     </p>
                 </div>
-      
+
                 <a href="https://codepen.io/eluizatsuda/full/YzNoqgW" target="_blank">
                     Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
                 </a>
             </div>
-            <!-- CODE - each portfolio item end -->
-            <!-- CODE - each portfolio item start -->
+            <!-- CODE - each portfolio item end - QUOTE -->
+            <!-- CODE - each portfolio item start - PORTFOLIO -->
             <div class="portfolio-item" data-category="code">
                 <img src="https://eluizatsuda.github.io/image/portfolio/img-portfolio-transp.png" class="photo" alt="Code 3">
                 <div class="item-info">
@@ -121,11 +164,13 @@
                 <a href="#myportfolio" data-toggle="collapse" title="Click to read about Portfolio">
                     <p class="project-tile">Personal portfolio  <i class="far fa-window-maximize"></i></p>
                 </a>
-                <div id="myportfolio" class="collapse font-size16">
+                <div id="myportfolio" class="collapse font-size11">
                     <p>
-                      I have developed this website as part of the projects (5/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</a>
+                      I have developed this website as part of the projects (5/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course</a>.
                     </p>
-                    <p>Objective: Build a Personal Portfolio Webpage. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+                    <p>
+                        Objective:  Build a Personal Portfolio page by fulfilling all the user stories as the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage" target="_blank">instructions</a>.
+                    </p>
                 </div>
       
                 <a href="https://codepen.io/eluizatsuda/full/mdRGQaM" target="_blank">
@@ -133,8 +178,8 @@
                 </a>
             </div>
 
-            <!-- CODE - each portfolio item end -->
-            <!-- CODE - each portfolio item start -->
+            <!-- CODE - each portfolio item end - PORTFOLIO -->
+            <!-- CODE - each portfolio item start - TECHNICAL DOCUMENTATION -->
             
             <div class="portfolio-item" data-category="code">
                 <img src="https://eluizatsuda.github.io/image/portfolio/img-technical-transp.png" class="photo" alt="Code 4">
@@ -151,19 +196,21 @@
                     <p class="project-tile">Technical Documentation  <i class="far fa-window-maximize"></i></p>
                 </a>
     
-                <div id="technical" class="collapse font-size16">
+                <div id="technical" class="collapse font-size11">
                     <p>
-                    I have developed this website as part of the projects (4/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</a>
+                    I have developed this website as part of the projects (4/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course</a>.
                     </p>
-                    <p>Objective: Build a technical documentation page. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+                    <p>
+                        Objective:  Build a Technical Documentation page by fulfilling all the user stories as the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page" target="_blank">instructions</a>.
+                    </p>
                 </div>
                 <a href="https://codepen.io/eluizatsuda/full/rNWgdRb" target="_blank">
                     Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
                 </a>
 
             </div>
-            <!-- CODE - each portfolio item end -->
-            <!-- CODE - each portfolio item start -->
+            <!-- CODE - each portfolio item end TECHNICAL DOCUMENTATION -->
+            <!-- CODE - each portfolio item start - LANDING -->
             <div class="portfolio-item" data-category="code">
                 <img src="https://eluizatsuda.github.io/image/portfolio/img-product-transp.png" class="photo" alt="Code 3">
                 <div class="item-info">
@@ -179,14 +226,16 @@
                     <p class="project-tile">Product Landing Page  <i class="far fa-window-maximize"></i></p>
                 </a>
       
-                <div id="product" class="collapse font-size16">
+                <div id="product" class="collapse font-size11">
                     <p>
                       I have developed this website as part of the projects (3/5) required to complete the 
                       <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp 
-                        <i class="fab fa-free-code-camp"></i> Web Design Responsive course.
-                      </a>
+                        <i class="fab fa-free-code-camp"></i> Web Design Responsive course
+                      </a>.
                     </p>
-                    <p>Objective: Build a Product Landing Page. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+                    <p>
+                        Objective:  Build a Product Landing page by fulfilling all the user stories as the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page" target="_blank">instructions</a>.
+                    </p>
                 </div>
       
                 <a href="https://codepen.io/eluizatsuda/full/qBaJorN" target="_blank">
@@ -194,8 +243,8 @@
                 </a>     
             </div>
 
-            <!-- CODE - each portfolio item end -->
-            <!-- CODE - each portfolio item start -->
+            <!-- CODE - each portfolio item end - LANDING -->
+            <!-- CODE - each portfolio item start - SURVEY -->
             <div class="portfolio-item" data-category="code">
                 <img src="https://eluizatsuda.github.io/image/portfolio/img-survey-transp.png" class="photo" alt="Code 2">
                 <div class="item-info">
@@ -212,19 +261,21 @@
                     <p class="project-tile">Survey Form  <i class="far fa-window-maximize"></i></p>
                 </a>
       
-                <div id="survey" class="collapse font-size16">
+                <div id="survey" class="collapse font-size11">
                     <p>
-                        I have developed this website as part of the projects (2/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</a>
+                        I have developed this website as part of the projects (2/5) required to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course</a>.
                     </p>
-                    <p>Objective: Build a Survey Form. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+                    <p>
+                        Objective:  Build a Survey Form page by fulfilling all the user stories as the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form" target="_blank">instructions</a>.
+                    </p>
                 </div>
       
                 <a href="https://codepen.io/eluizatsuda/full/XWKZRjv" target="_blank">
                     Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
                 </a>
             </div>
-            <!-- CODE - each portfolio item end -->
-            <!-- CODE - each portfolio item start -->
+            <!-- CODE - each portfolio item end - SURVEY -->
+            <!-- CODE - each portfolio item start - TRIBUTE -->
             <div class="portfolio-item" data-category="code">
                 <img src="https://eluizatsuda.github.io/image/portfolio/img-tribute-transp.png" class="photo" alt="Code 1">
                 <div class="item-info">
@@ -240,18 +291,20 @@
                     <p class="project-tile">Tribute Page  <i class="far fa-window-maximize"></i></p>
                 </a>
       
-                <div id="tribute" class="collapse font-size16">
+                <div id="tribute" class="collapse font-size11">
                     <p>
-                        I have developed this website as part of the projects required (1/5) to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course.</a>
+                        I have developed this website as part of the projects required (1/5) to complete the <a href="https://www.freecodecamp.org/learn/responsive-web-design/#responsive-web-design-projects" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i> Web Design Responsive course</a>.
                     </p>
-                    <p>Objective: Build a Survey Form. Fulfill all the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank">user stories</a> and get all of the tests to pass. Give it your style.</p>
+                    <p>
+                        Objective:  Build a tribute page by fulfilling all the user stories as the <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page" target="_blank">instructions</a>.
+                    </p>
                 </div>
       
                 <a href="https://codepen.io/eluizatsuda/full/NWNVqwP" target="_blank">
                     Try it live and view the code on Codepen <i class="fab fa-codepen"></i>
                 </a>
             </div>
-            <!-- CODE - each portfolio item end -->
+            <!-- CODE - each portfolio item end - TRIBUTE -->
 
 
 
